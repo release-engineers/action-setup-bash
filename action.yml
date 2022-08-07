@@ -1,0 +1,8 @@
+name: 'Setup Actions'
+description: 'Common GitHub Actions setup'
+
+runs:
+  using: 'composite'
+  steps:
+    - shell: bash --login {0}
+      run: cat "${GITHUB_ACTION_PATH}/bash_profile.sh" >> ~/.bash_profile

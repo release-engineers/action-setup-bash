@@ -1,0 +1,21 @@
+<!-- README.md is auto-generated from README.md.template -->
+
+# [{{ github.repository }}]({{ github.event.repository.owner.html_url }})
+
+`action-setup-bash` sets up ~/.bash_profile for stricter error handling and more detailed error reporting.
+
+## Usage
+
+Refer to the [example workflow](.github/workflows/example.yml);
+
+```yml
+{{ load('.github/workflows/example.yml') }}
+```
+
+## Bash Profile
+
+To see what's added to bash_profile, refer to [bash_profile.sh](bash_profile.sh);
+
+```bash
+{{ load('bash_profile.sh') }}
+```
