@@ -8,6 +8,10 @@ on:
       - 'README.md.template'
   workflow_dispatch:
 
+defaults:
+  run:
+    shell: bash --login {0}
+
 permissions:
   contents: write
 
@@ -15,6 +19,7 @@ jobs:
   run-templating:
     runs-on: ubuntu-latest
     steps:
+      - uses: EffortGames/action-setup-bash@v1
       - uses: actions/checkout@v2
       - uses: EffortGames/action-template@v1
         with:
