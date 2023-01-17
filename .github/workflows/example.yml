@@ -11,7 +11,7 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - uses: EffortGames/action-setup-bash@v1
+      - uses: release-engineers/action-setup-bash@v1
       - run: |
           echo "With the default shell set to bash --login, 'run' steps in this GitHub Workflow run ~/.bash_profile"
           echo "Any errors that occur after the setup action will be more detailed and halt the workflow"
