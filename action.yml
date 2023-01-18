@@ -1,5 +1,5 @@
-name: 'Setup Actions'
-description: 'Common GitHub Actions setup'
+name: 'Action Setup Bash'
+description: 'Our recommended setup for Bash'
 
 runs:
   using: 'composite'
