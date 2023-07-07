@@ -2,6 +2,8 @@
 
 # [release-engineers/action-setup-bash](https://github.com/release-engineers)
 
+[![Status: Production ready](https://img.shields.io/badge/status-production_ready-green)](https://release-engineers.com/open-source-badges/)
+
 `action-setup-bash` sets up ~/.bash_profile for stricter error handling and more detailed error reporting.
 
 ## Usage
