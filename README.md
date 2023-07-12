@@ -28,7 +28,8 @@ jobs:
       - run: |
           echo "With the default shell set to bash --login, 'run' steps in this GitHub Workflow run ~/.bash_profile"
           echo "Any errors that occur after the setup action will be more detailed and halt the workflow"
-          echo "Time to crash" | crash
+          echo "Time to crash;"
+          exit 1
 
 ```
 
