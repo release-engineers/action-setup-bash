@@ -1,6 +1,6 @@
 <!-- README.md is auto-generated from README.md.template -->
 
-# [release-engineers/action-setup-bash](https://github.com/release-engineers)
+# release-engineers/action-setup-bash
 
 [![Status: Production ready](https://img.shields.io/badge/status-production_ready-green)](https://release-engineers.com/open-source-badges/)
 
